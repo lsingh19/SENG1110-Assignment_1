@@ -1,4 +1,4 @@
-git add -u
+git add .
 git reset run.bat
 Pause
 @echo off
