@@ -1,5 +1,5 @@
 git add -u
-git reset -- main/run.bat
+git reset run.bat
 Pause
 @echo off
 REM variables must be in caps
