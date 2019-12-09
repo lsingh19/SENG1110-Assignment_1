@@ -1,7 +1,7 @@
 # SENG1110-Assignment_1
 Object-Oriented Programming Course - Assignment 1
 
-Mark: 90.5 / 100 
+**_Mark_**: 90.5 / 100 
 
 # Comments by Marker
 
@@ -25,12 +25,12 @@ The program will start asking for the following inputs:
  
 If the user inputs a negative number, the program should show a message and ask the input again.  
 There are two types of accounts the user can choose: 
-1. No fees. If the user chooses this option, the interest rate will be 
+1. **No fees.** If the user chooses this option, the interest rate will be   
     - 6.5%  if n < 50 
     - 7.5%  if 50 <= n < =100 
     - 8.5%  if n > 100 where n is number of months 
     
-2. Fees. The interest rate will be 6%, but the user needs to pay an additional fee of $10 every month. 
+2. **Fees.** The interest rate will be 6%, but the user needs to pay an additional fee of $10 every month. 
  
 Next, the program will output the monthly payment, which will be calculated using the formula:  
 
@@ -89,7 +89,7 @@ The amortization table is:
 ## Program Requirements 
 There must be three classes: Client, Account and LoanCalculator. 
  
-1. The Account class (the file needs to be Account.java) 
+1. **The Account class** (the file needs to be Account.java) 
  
 	It will hold the required instance data for an account and it will have suitable methods to access and modify the data for an account.       
 	The instance variables will be 
@@ -103,7 +103,7 @@ There must be three classes: Client, Account and LoanCalculator.
 	- calculateMontlyPayment, which will calculate the formula (1) 
 	- setAmortizationTable - it will output a String with the table information. 
 
-2. The Client Class (the file needs to be Client.java)  
+2. **The Client Class** (the file needs to be Client.java)  
 
 	It will hold the required instance data for a client and it will have suitable methods to access and modify the data for a client.   
 	The instance variables will be: 
@@ -113,6 +113,6 @@ There must be three classes: Client, Account and LoanCalculator.
 	- loan – Account 
 	You need to implement at least one constructor that will have the parameters name, age and income. The class needs to have methods to change and access all instance variables.  
  
-3. The LoanCalculator Class (the file needs to be LoanCalculator.java)   
+3. **The LoanCalculator Class** (the file needs to be LoanCalculator.java)   
 
 	It will receive inputs and show outputs. It will have a Client variable. This is the only class that should have a main method. The class LoanCalculator will also be the only one that will receive inputs and show outputs.  
