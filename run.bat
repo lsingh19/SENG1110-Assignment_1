@@ -1,5 +1,5 @@
 git add -u
-git reset -- main/dontcheckmein.txt
+git reset -- main/run.bat
 Pause
 @echo off
 REM variables must be in caps
