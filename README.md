@@ -55,7 +55,8 @@ The program will also inform
 - Total payment 
 - Total interest paid
 
-For example: Suppose the following inputs:  
+**_For example:_**   
+Suppose the following inputs:  
 Name = Joao da Silva   
 Age = 31   
 Income per year = 60000   
