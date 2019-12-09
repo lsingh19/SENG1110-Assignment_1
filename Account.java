@@ -2,7 +2,6 @@ import java.lang.Math;
 import javax.swing.*;
 public class Account
 {
-    // instance variables - replace the example below with your own
     private double interestRate, amount;
     private int numberOfMonths; 
     private String accountType;
